@@ -21,15 +21,9 @@ a:visited {
 p {
     margin: 5px;
     font-family: 'Playfair Display', serif;
+    line-height: 1.5;
 }
-.billede img {
-    padding-left: 15px;
-    padding-bottom: 0px;
-}
-.sidebar h1 {
-    color:black;
-    text-align: left;
-}
+
 
 h2{
     color:darkgoldenrod;
@@ -40,26 +34,9 @@ h2{
 }
 
 
-.main-area{
-    width: 65%;
-    float: left;
-    height: 150px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: ivory;
-    box-sizing: border-box;
-    font-style: italic;
-}
-.sidebar{
-    width: 35%;
-    float: right;
-    height: 150px;
-    padding-left: 15px;
-    padding-right: 15px;
-   background-color: ivory;
-    box-sizing: border-box;
+.margin{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 body {
@@ -68,10 +45,7 @@ body {
 
 }
 
-.samlet {
-    margin:0px 0;
 
-}
 
 nav ul {
     list-style-type: none;
@@ -87,3 +61,28 @@ footer {
     text-align: center;
     color: white;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+  }
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    max-width:80%;
+    height:auto;
+    display: flex;
+    padding-right: -10px;
+    margin-left: -30px;
+  }
+  .item2 {
+    font-style: italic;
+    font-size: 30px;
+  }
