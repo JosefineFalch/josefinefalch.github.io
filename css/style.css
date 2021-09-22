@@ -1,0 +1,89 @@
+
+header {
+    color:white;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    float: right;
+}
+p {
+    margin: 5px;
+    font-family: 'Playfair Display', serif;
+}
+.billede img {
+    padding-left: 15px;
+    padding-bottom: 0px;
+}
+.sidebar h1 {
+    color:black;
+    text-align: left;
+}
+
+h2{
+    color:darkgoldenrod;
+}
+
+.top {
+    background-color:burlywood;
+}
+
+
+.main-area{
+    width: 65%;
+    float: left;
+    height: 150px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: ivory;
+    box-sizing: border-box;
+    font-style: italic;
+}
+.sidebar{
+    width: 35%;
+    float: right;
+    height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+   background-color: ivory;
+    box-sizing: border-box;
+}
+
+body {
+ margin:10px 0;
+ overflow-x:hidden ;
+
+}
+
+.samlet {
+    margin:0px 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+nav ul a {
+    color: black;
+    font-size: 150%;
+}
+footer {
+    background-color:#d7d1c5;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
