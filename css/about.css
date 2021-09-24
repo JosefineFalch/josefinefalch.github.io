@@ -40,7 +40,9 @@ body{
 }
 
 
-
+h1 {
+    font-family: 'Playfair Display', serif;
+}
 .overskrift {
   grid-area: header;
   background-color: rgb(245, 245, 231);
