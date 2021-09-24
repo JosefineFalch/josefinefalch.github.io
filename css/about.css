@@ -40,9 +40,6 @@ body{
 }
 
 
-h1 {
-    font-family: 'Playfair Display', serif;
-}
 .overskrift {
   grid-area: header;
   background-color: rgb(245, 245, 231);
@@ -50,4 +47,5 @@ h1 {
   font-size: 20px;
   margin-bottom:0;
   margin-top:0;
+  font-family: 'Playfair Display', serif;
 }
