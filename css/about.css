@@ -18,7 +18,7 @@ a:visited {
     float: right;
 }
 footer {
-    background-color:#d7d1c5;
+    background-color:#eadfcc;
     padding: 10px;
     text-align: center;
     color: white;
@@ -45,7 +45,7 @@ h1{
 
 .overskrift {
   grid-area: header;
-  background-color: rgb(245, 245, 231);
+  background-color:#eed2df;
   text-align: center;
   font-size: 20px;
   margin-bottom:0;

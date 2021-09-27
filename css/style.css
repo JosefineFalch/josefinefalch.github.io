@@ -27,7 +27,7 @@ p {
 
 
 .top {
-    background-color:rgba(221, 153, 201, 0.74);
+    background-color:#f0e5c4;
 }
 
 
@@ -55,7 +55,7 @@ nav ul a {
     font-size: 150%;
 }
 footer {
-    background-color:#d7d1c5;
+    background-color:#eadfcc;
     padding: 10px;
     text-align: center;
     color: white;
